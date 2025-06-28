@@ -1,0 +1,19 @@
+.cart-table {
+  width: 80vw;
+  border-collapse: collapse;
+}
+
+.cart-table tr td, .cart-table tr th{
+  border: solid 1px rgb(204, 199, 199);
+}
+
+.cart-table tbody tr td img{
+  width: 200px;
+}
+
+.finish-order-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  font-weight: bold;
+}
