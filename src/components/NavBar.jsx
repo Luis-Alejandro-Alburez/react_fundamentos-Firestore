@@ -27,6 +27,7 @@ export function NavBar() {
       <nav>
         <Link to={"/products"}>Productos</Link>
         <Link to={"/cart"}>Carrito de compra</Link>
+        <Link to={"/orders"}>Ordenes</Link>
         <button onClick={signout}>Salir</button>
       </nav>
     )
